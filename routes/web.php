@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AddContactController;
 use App\Http\Controllers\MyContactController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
@@ -41,6 +42,8 @@ Route::get('client', function(){
 
 Route::resource("/users", UserController::class);
 
-Route::get('/newChat', [MyContactController::class, 'view_contact'])->name('newChat');
+// Route::get('/newChat', [MyContactController::class, 'view_contact'])->name('newChat');
 
-Route::get('/newChat.oneContact', [MyContactController::class, 'one_contact']);
+// Route::get('/newChat.oneContact', [MyContactController::class, 'one_contact']);
+
+Route::resource('/newChat', AddContactController::class);
