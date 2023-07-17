@@ -31,7 +31,9 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-12">
-                        <p>{{ $contact->role }}</p>
+                        <p>
+                                
+                        </p>
                     </div>
                 </div>
             </div>
