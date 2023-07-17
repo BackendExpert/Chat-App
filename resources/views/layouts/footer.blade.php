@@ -46,7 +46,7 @@
             </div>
         </div>
         <center>
-            <b><i class="far fa-copyright"></i>Online Chat Application</b> | Developed By <a href="" target="_blank"></a>
+            <b><i class="far fa-copyright"></i>Online Chat Application</b> | Developed By <a href="https://github.com/JehanKandy" target="_blank">JehanKandy 2021 - 2023</a>
         </center>
     </div>
 </footer>
