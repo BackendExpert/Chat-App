@@ -18,10 +18,17 @@
                     </div>
                     <div class="col-lg-6" style="text-align: right;">
                         @php
-                            if($$contact->name == )
+                            if($contact->name == Auth::user()->name){
+                                echo "<h4>Me</h4>";
+                            }
+                            else{
+                                @endphp
+                                    <a href=""><button class="btn btn-success">Add to Contact</button></a>
+                                @php
+                            }
 
                         @endphp
-                        <a href=""><button class="btn btn-success">Add to Contact</button></a>
+                        
                     </div>
                 </div>
             </div>
