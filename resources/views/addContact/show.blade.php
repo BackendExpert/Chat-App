@@ -14,7 +14,8 @@
             <form action="{{ url('newChat') }}" method="post">
                 @csrf
 
-                
+                <p>{{  }}</p>
+
 
                 <input type="submit" value="ssssssss">
             </form>
