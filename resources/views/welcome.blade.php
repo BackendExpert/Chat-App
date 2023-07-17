@@ -21,7 +21,9 @@
             font-size: 21px;
             background: transparent;
             border: 2px solid white;
-            color: white;
+            color: whitesmoke;
+            border-radius: 5px;
+            transition: 0.5s;
         }
     </style>
 
