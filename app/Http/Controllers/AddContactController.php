@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Member;
 use Illuminate\Http\Request;
 
 class AddContactController extends Controller
@@ -10,8 +11,9 @@ class AddContactController extends Controller
      * Display a listing of the resource.
      */
     public function index()
-    {
-        //
+    {        
+        $new_contact = Member::all();
+        return view('myContacts.newChat')->with('new_contact', $new_contact);
     }
 
     /**
