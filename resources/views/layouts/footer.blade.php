@@ -38,6 +38,8 @@
                     <ul>
                         <li><i class="fas fa-envelope-open"></i> jehankandy@gmail.com</li>
                         <li><i class="fas fa-mobile"></i> +94 711758851</li>
+                        <li><a href="" target="_blank"><i class="fab fa-github-alt"></i> github.com/jehankandy</a></li>
+                        <li><a href="" target="_blank"><i class="fab fa-github-alt"></i> github.com/jehankandy</a></li>
                     </ul>
                 </div>
             </div>
