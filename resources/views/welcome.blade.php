@@ -4,6 +4,7 @@
     <style>
         .home-content{
             text-align: center;
+            padding: 40px 0;
         }
     </style>
 
