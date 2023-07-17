@@ -8,15 +8,15 @@ use Illuminate\Http\Request;
 class MyContactController extends Controller
 {
 
-    public function view_contact(){
-        $new_contact = Member::all();
-        return view('myContacts.newChat')->with('new_contact', $new_contact);
-    }
+    // public function view_contact(){
+    //     $new_contact = Member::all();
+    //     return view('myContacts.newChat')->with('new_contact', $new_contact);
+    // }
 
-    public function one_contact(string $id){
-        $contact_on = Member::find($id);
-        return view('myContacts.oneContact')->with('contact_on', $contact_on);
-    }
+    // public function one_contact(string $id){
+    //     $contact_on = Member::find($id);
+    //     return view('myContacts.oneContact')->with('contact_on', $contact_on);
+    // }
 
     public function index()
     {
