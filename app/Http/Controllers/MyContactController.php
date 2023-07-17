@@ -6,9 +6,11 @@ use Illuminate\Http\Request;
 
 class MyContactController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     */
+
+    public function view_contact(){
+        
+    }
+
     public function index()
     {
         //
