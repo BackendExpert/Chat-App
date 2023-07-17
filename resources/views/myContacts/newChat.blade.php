@@ -15,7 +15,7 @@
 
 <div class="contact-content">
     <div class="container">
-        <h3>All Contacts</h3>
+        <h2 style="text-align: center;">All Contacts</h2>
         @foreach ($new_contact as $contact)
             <div class="one-contact">
                 <div class="row">
