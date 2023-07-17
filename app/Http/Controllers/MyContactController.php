@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
+use App\Models\Member;
 
 use Illuminate\Http\Request;
 
@@ -8,7 +9,7 @@ class MyContactController extends Controller
 {
 
     public function view_contact(){
-        
+
     }
 
     public function index()
