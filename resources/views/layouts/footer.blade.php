@@ -9,13 +9,17 @@
         <div class="row">
             <div class="col-lg-4">
                 <div class="footer-title">
-                    About Us
+                    <h2>About Us</h2>
                 </div>
                 <div class="footer-body">
                     Online Chat Application
                 </div>
             </div>
-            <div class="col-lg-4"></div>
+            <div class="col-lg-4">
+                <div class="footer-title">
+                    <h2></h2>
+                </div>
+            </div>
             <div class="col-lg-4"></div>
         </div>
     </div>
