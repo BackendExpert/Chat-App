@@ -26,8 +26,12 @@
                                     <a href=""><button class="btn btn-success">Add to Contact</button></a>
                                 @php
                             }
-                        @endphp
-                        
+                        @endphp                        
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p>{{ $contact->role }}</p>
                     </div>
                 </div>
             </div>
