@@ -7,11 +7,13 @@
             padding: 250px 0;
             background-image: url(https://wallpaperaccess.com/full/2115.jpg);
             height: 100vh;
-            font-size: 305px;
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
             color: white;
+        }
+        .home-title{
+            font-size: 60px;            
         }
     </style>
 
