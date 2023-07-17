@@ -11,7 +11,9 @@
 <div class="contact-content">
     <div class="container">
         @foreach ($new_contact as $contact)
-            
+            <div class="one-contact">
+                
+            </div>
         @endforeach
     </div>
 </div>
