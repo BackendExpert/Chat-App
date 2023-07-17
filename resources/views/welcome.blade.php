@@ -17,7 +17,8 @@
         }
         .btn-login{
             margin: 30px 0;
-            padding: 20px 40px;
+            padding: 15px 40px;
+            font-size: 15px;
         }
     </style>
 
