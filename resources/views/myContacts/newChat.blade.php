@@ -7,7 +7,7 @@
         padding: 40px 0;
     }
     .one-contact{
-        
+        padding: 20px 0;
     }
 </style>
 
