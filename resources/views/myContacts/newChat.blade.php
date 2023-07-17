@@ -39,6 +39,9 @@
                                 elseif($contact->role == 2){
                                     echo "Staff Member";
                                 }
+                                elseif($contact->role == 3){
+                                    echo "Client";
+                                }
                             @endphp    
                         </p>
                     </div>
