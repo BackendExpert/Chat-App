@@ -9,7 +9,8 @@ class MyContactController extends Controller
 {
 
     public function view_contact(){
-
+        $contact = Member::all();
+        return
     }
 
     public function index()
