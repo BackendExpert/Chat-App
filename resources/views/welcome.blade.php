@@ -44,7 +44,8 @@
 
         <div class="home-content">
             <div class="container">
-                <span class="home-title">Welcome to Web-Base Chat Application</h1>
+                <span class="home-title">Welcome to Web-Base Chat Application</h1></span>
+
             </div>
         </div>
 
