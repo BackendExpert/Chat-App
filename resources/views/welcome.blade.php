@@ -63,8 +63,5 @@
                     <a href="{{ route('login') }}"><button class="btn-login"> <i class="fas fa-user-alt"></i>   Login Here</button></a>
             </div>
         </div>
-
-
-
     </body>
 </html>
