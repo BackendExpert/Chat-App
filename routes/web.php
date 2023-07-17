@@ -40,4 +40,4 @@ Route::get('client', function(){
 })->name('client')->middleware('client');
 
 Route::resource("/users", UserController::class);
-Route::get('/newChat', [MyContactController::class])
+Route::get('/newChat', [MyContactController::class, 'view_contact'])->name('newChat');
