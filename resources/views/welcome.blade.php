@@ -7,6 +7,7 @@
             padding: 250px 0;
             background-image: url(https://wallpaperaccess.com/full/2115.jpg);
             height: 100vh;
+            font-size: 305px;
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -41,7 +42,7 @@
 
         <div class="home-content">
             <div class="container">
-                <h1>Welcome to Web-Base Chat Application</h1>
+                <span class="home-title">Welcome to Web-Base Chat Application</h1>
             </div>
         </div>
 
