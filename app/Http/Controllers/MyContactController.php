@@ -15,7 +15,7 @@ class MyContactController extends Controller
 
     public function one_contact(string $id){
         $contact_on = Member::find($id);
-        return view('myContacts.')
+        return view('myContacts.oneContact')->with('contact_on', $contact_on);
         return view('users.show')->with('members', $members);
     }
 
