@@ -20,6 +20,6 @@
 
 @else
 
-<script>window.location = "";</script>
+<script>window.location = "/";</script>
 
 @endauth
