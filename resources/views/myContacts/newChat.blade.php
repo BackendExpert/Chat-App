@@ -40,7 +40,7 @@
                         <p>
                             @php
                                 if($contact->role == 1){
-                                    echo "Admin";
+                                    echo "<span class='badge bg-danger'>Admin</span>";
                                 }
                                 elseif($contact->role == 2){
                                     echo "Staff Member";
