@@ -44,7 +44,7 @@
 
         <div class="home-content">
             <div class="container">
-                <span class="home-title">Welcome to Web-Base Chat Application</h1></span>
+                <span class="home-title">Welcome to Web-Base Chat Application</h1></span><br>
                     <a href="{{ route('login') }}"><button class="btn-login">Login Here</button></a>
             </div>
         </div>
