@@ -41,7 +41,7 @@
 
         <div class="home-content">
             <div class="container">
-                <h2>Welcome to Web-Base Chat Application</h2>
+                <h1>Welcome to Web-Base Chat Application</h1>
             </div>
         </div>
 
