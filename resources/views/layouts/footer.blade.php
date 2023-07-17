@@ -15,6 +15,9 @@
         text-decoration: none;
         color: white;
     }
+    a{
+        color: white;
+    }
 </style>
 
 <footer>
