@@ -15,6 +15,7 @@
 
 <div class="contact-content">
     <div class="container">
+        <a href="{{ url('/') }}"><button class="btn btn-primary">Back</button></a>
         <h2 style="text-align: center;">All Contacts</h2><br>
         @foreach ($new_contact as $contact)
             <div class="one-contact">
