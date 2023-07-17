@@ -11,7 +11,7 @@
 
     <div class="one-contact">
         <div class="container">
-            <form action="{{ url('addContact') }}" method="post">
+            <form action="{{ url('addContact/index') }}" method="post">
                 @csrf
 
                 <input type="submit" value="ssssssss">
