@@ -33,7 +33,13 @@
                             //         <a href="{{ url('/newChat/' . $contact->id) }}"><button class="btn btn-success">Add to Contact</button></a>
                             //     @php
                             // }
-                        @endphp                        
+
+
+                        @endphp   
+                        
+                        <form action="{{ url('newChat') }}" method="post">
+                            @csrf
+                        </form>
                     </div>
                 </div>
                 <div class="row">
