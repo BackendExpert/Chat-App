@@ -13,6 +13,7 @@
     }
     .footer-body li a{
         text-decoration: none;
+        color: white;
     }
 </style>
 
