@@ -103,7 +103,7 @@
             <a href="{{url('')}}" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
                     class="fas fa-mobile me-2"></i>My Contacts</a>
             <a href="{{url('')}}" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
-                    class="fas fa-home me-2"></i>All Contacts</a>
+                    class="fas fa-address-book me-2"></i>All Contacts</a>
 
             
         </div>
