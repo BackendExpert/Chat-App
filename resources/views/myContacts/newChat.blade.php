@@ -46,7 +46,7 @@
                                     echo "<span class='badge bg-warning'>Staff Member</span>";
                                 }
                                 elseif($contact->role == 3){
-                                    echo "Client";
+                                    echo "<span class='badge bg-success'>Client</span>";
                                 }
                             @endphp    
                         </p>
