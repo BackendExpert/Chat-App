@@ -1,7 +1,9 @@
 @extends('header')
 
-<div class="container">
-    sdasd
+<div class="contact-content">
+    <div class="container">
+    
+    </div>
 </div>
 
 @include('layouts.footer')
