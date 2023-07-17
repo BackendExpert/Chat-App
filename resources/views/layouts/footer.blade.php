@@ -1,7 +1,7 @@
 <style>
     footer{
         padding: 50px 0;
-        background: black;
+        background: rgb(14, 14, 14);
         color: white;
     }
 </style>
