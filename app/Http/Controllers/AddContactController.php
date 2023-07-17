@@ -13,7 +13,7 @@ class AddContactController extends Controller
     public function index()
     {        
         $new_contact = Member::all();
-        return view('myContacts.newChat')->with('new_contact', $new_contact);
+        return view('addContact.index')->with('new_contact', $new_contact);
     }
 
     /**
