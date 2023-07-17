@@ -13,6 +13,12 @@ class MyContactController extends Controller
         return view('myContacts.newChat')->with('new_contact', $new_contact);
     }
 
+    public function one_contact(string $id)
+    {
+        $members = Member::find($id);
+        return view('myContacts.')->with('members', $members);
+    }
+
     public function index()
     {
         //
