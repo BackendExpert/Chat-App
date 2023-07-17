@@ -50,7 +50,7 @@
         <div class="home-content">
             <div class="container">
                 <span class="home-title">Welcome to Web-Base Chat Application</h1></span><br>
-                    <a href="{{ route('login') }}"><button class="btn-login"> <i class="fas fa-user-alt"></i> Login Here</button></a>
+                    <a href="{{ route('login') }}"><button class="btn-login"> <i class="fas fa-user-alt"></i>   Login Here</button></a>
             </div>
         </div>
 
