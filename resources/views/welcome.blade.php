@@ -15,6 +15,9 @@
         .home-title{
             font-size: 60px;            
         }
+        .btn-login{
+            margin: 30px 0;
+        }
     </style>
 
     <body class="antialiased">
