@@ -11,6 +11,9 @@
         list-style: none;
         padding: 10px 0;
     }
+    .footer-body li a{
+        
+    }
 </style>
 
 <footer>
