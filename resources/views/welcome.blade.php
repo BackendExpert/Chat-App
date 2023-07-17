@@ -20,7 +20,8 @@
             padding: 15px 40px;
             font-size: 21px;
             background: transparent;
-            border: 1px solid black;
+            border: 1px solid white;
+            color: white
         }
     </style>
 
