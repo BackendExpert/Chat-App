@@ -37,7 +37,8 @@ class AddContactController extends Controller
      */
     public function show(string $id)
     {
-        //
+        $members = Member::find($id);
+        return view('addContact.show')->with('members', $members);
     }
 
     /**
