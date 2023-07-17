@@ -30,7 +30,7 @@
                             }
                             else{
                                 @endphp
-                                    <a href="{{ url('/newChat/' . $item->id) }}"><button class="btn btn-success">Add to Contact</button></a>
+                                    <a href="{{ url('/newChat/' . $contact->id) }}"><button class="btn btn-success">Add to Contact</button></a>
                                 @php
                             }
                         @endphp                        
