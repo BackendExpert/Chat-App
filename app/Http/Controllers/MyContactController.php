@@ -10,7 +10,8 @@ class MyContactController extends Controller
 
     public function view_contact(){
         $contact = Member::all();
-        return
+        return view('');
+        return view('users.index')->with('members', $members);
     }
 
     public function index()
