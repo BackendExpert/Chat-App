@@ -8,6 +8,7 @@
     }
     .one-contact{
         padding: 20px 0;
+        border: 1px solid rgb(126, 126, 126);
     }
 </style>
 
