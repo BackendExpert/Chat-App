@@ -1,6 +1,8 @@
 <style>
     footer{
         padding: 50px 0;
+        background: black;
+        color: white;
     }
 </style>
 
