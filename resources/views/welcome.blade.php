@@ -28,7 +28,7 @@
 
         <div class="home-content">
             <div class="container">
-                ggg
+                <h2>Welcome to Web-Base Chat Application</h2>
             </div>
         </div>
 
