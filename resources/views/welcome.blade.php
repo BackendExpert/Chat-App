@@ -6,6 +6,7 @@
             text-align: center;
             padding: 40px 0;
             background-image: url(https://mcdn.wallpapersafari.com/medium/46/30/ObEGSN.jpg);
+            width: 100vh;
         }
     </style>
 
