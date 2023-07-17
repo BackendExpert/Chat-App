@@ -14,7 +14,7 @@ class MyContactController extends Controller
     }
 
     public function one_contact(string $id){
-
+        $contact_on = Member::find($id);
     }
 
     public function index()
