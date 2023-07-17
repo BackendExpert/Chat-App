@@ -62,6 +62,7 @@
 
                 @auth
                 <span class="home-title">Welcome Back @php echo Auth::user()->name; @endphp</span><br>
+                    <a href="{{ route('login') }}"><button class="btn-login"> <i class="fas fa-user-alt"></i>   Dashboard</button></a>
                     <a href="{{ route('login') }}"><button class="btn-login"> <i class="fas fa-user-alt"></i>   Login Here</button></a>
                 @else
                 <span class="home-title">Welcome to Web-Base Chat Application</h1></span><br>
