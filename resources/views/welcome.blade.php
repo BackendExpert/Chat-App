@@ -25,6 +25,10 @@
             border-radius: 5px;
             transition: 0.5s;
         }
+        .btn-login:hover{
+            color: black;
+            background: whitesmoke;
+        }
     </style>
 
     <body class="antialiased">
