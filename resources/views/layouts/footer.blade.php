@@ -4,6 +4,9 @@
         background: rgb(14, 14, 14);
         color: white;
     }
+    .footer-title{
+        padding: 20px 0;
+    }
 </style>
 
 <footer>
