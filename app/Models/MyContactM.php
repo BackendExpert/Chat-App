@@ -9,6 +9,6 @@ class MyContactM extends Model
 {
     protected $table = 'my_contacts';
     protected $primaryKey = 'id';
-    protected $fillable = ['name', 'email', 'role'];
+    protected $fillable = ['owner', 'email', 'role'];
     use HasFactory;
 }
