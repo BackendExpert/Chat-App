@@ -25,23 +25,15 @@
                     </div>
                     <div class="col-lg-6" style="text-align: right;">
                         @php
-                            // if($contact->name == Auth::user()->name){
-                            //     echo "<h4>Me</h4>";
-                            // }
-                            // else{
-                            //     @endphp
-                            //         <a href="{{ url('/newChat/' . $contact->id) }}"><button class="btn btn-success">Add to Contact</button></a>
-                            //     @php
-                            // }
-
-
-                        @endphp   
-                        
-                        <form action="{{ url('newChat') }}" method="post">
-                            @csrf
-
-                            <input type="submit" value="Enter">
-                        </form>
+                            if($contact->name == Auth::user()->name){
+                                echo "<h4>Me</h4>";
+                            }
+                            else{
+                                @endphp
+                                    <a href="{{ url('/newChat/' . $contact->id) }}"><button class="btn btn-success">Add to Contact</button></a>
+                                @php
+                            }
+                        @endphp                        
                     </div>
                 </div>
                 <div class="row">
