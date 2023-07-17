@@ -4,7 +4,7 @@
     <style>
         .home-content{
             text-align: center;
-            padding: 40px 0;
+            padding: 250px 0;
             background-image: url(https://wallpaperaccess.com/full/2115.jpg);
             height: 100vh;
             background-position: center;
