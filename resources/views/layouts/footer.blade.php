@@ -37,6 +37,7 @@
                 <div class="footer-body">
                     <ul>
                         <li><i class="fas fa-envelope-open"></i> jehankandy@gmail.com</li>
+                        <li><i class="fas fa-mobile"></i> +94 711758851</li>
                     </ul>
                 </div>
             </div>
