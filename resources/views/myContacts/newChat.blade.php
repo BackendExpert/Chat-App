@@ -16,7 +16,7 @@
                     <div class="col-lg-6">
                         <h3>{{ $contact->name }}</h3>
                     </div>
-                    <div class="col-lg-6"></div>
+                    <div class="col-lg-6" style="text-align: right;"></div>
                 </div>
             </div>
         @endforeach
