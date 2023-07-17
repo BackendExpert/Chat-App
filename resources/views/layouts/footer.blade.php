@@ -14,7 +14,7 @@
                     <h2>About Us</h2>
                 </div>
                 <div class="footer-body">
-                    Online Chat Application, developed for educational purposes only
+                    Online Chat Application.
                 </div>
             </div>
             <div class="col-lg-4">
