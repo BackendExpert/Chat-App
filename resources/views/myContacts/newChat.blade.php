@@ -26,7 +26,6 @@
                                     <a href=""><button class="btn btn-success">Add to Contact</button></a>
                                 @php
                             }
-
                         @endphp
                         
                     </div>
