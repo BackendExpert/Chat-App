@@ -6,6 +6,9 @@
     .contact-content{
         padding: 40px 0;
     }
+    .one-contact{
+        
+    }
 </style>
 
 <div class="contact-content">
