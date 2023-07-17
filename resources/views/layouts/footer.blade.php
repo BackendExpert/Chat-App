@@ -19,10 +19,27 @@
             </div>
             <div class="col-lg-4">
                 <div class="footer-title">
-                    <h2></h2>
+                    <h2>Features</h2>
+                </div>
+                <div class="footer-body">
+                    <ul>
+                        <li><a href="">Feature 1</a></li>
+                        <li><a href="">Feature 2</a></li>
+                        <li><a href="">Feature 3</a></li>
+                        <li><a href="">Feature 4</a></li>                        
+                    </ul>
                 </div>
             </div>
-            <div class="col-lg-4"></div>
+            <div class="col-lg-4">
+                <div class="footer-title">
+                    <h2>Contact Us Via</h2>
+                </div>
+                <div class="footer-body">
+                    <ul>
+                        <li><i class="fas fa-envelope-open"></i> jehankandy@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 </footer>
