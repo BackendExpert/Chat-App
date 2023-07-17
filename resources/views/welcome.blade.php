@@ -26,7 +26,11 @@
             @endif            
         </div> --}}
 
-        
+        <div class="home-content">
+            <div class="container">
+                ggg
+            </div>
+        </div>
 
 
 
