@@ -7,6 +7,10 @@
             padding: 40px 0;
             background-image: url(https://mcdn.wallpapersafari.com/medium/46/30/ObEGSN.jpg);
             height: 100vh;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
         }
     </style>
 
