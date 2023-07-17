@@ -34,9 +34,11 @@
                         <p>
                             @php
                                 if($contact->role == 1){
-                                    echo "Admin"
+                                    echo "Admin";
                                 }
-                                elseif($contact->role == 2)
+                                elseif($contact->role == 2){
+                                    echo "Staff Member";
+                                }
                             @endphp    
                         </p>
                     </div>
