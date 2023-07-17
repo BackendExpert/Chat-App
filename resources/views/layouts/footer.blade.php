@@ -15,9 +15,7 @@
         text-decoration: none;
         color: white;
     }
-    a{
-        color: white;
-    }
+
 </style>
 
 <footer>
@@ -61,7 +59,7 @@
         </div>
         <hr>
         <center>
-            <b><i class="far fa-copyright"></i>Online Chat Application</b> | Developed By <b><a href="https://github.com/JehanKandy" target="_blank">JehanKandy</a> 2021 - 2023</b> & <b><a href="https://github.com/BackendExpert" target="_blank">BackendExpert</a></b> | All Rights Reserved
+            <b><i class="far fa-copyright"></i>Online Chat Application</b> | Developed By <b><a href="https://github.com/JehanKandy" target="_blank" style="color:white;">JehanKandy</a> 2021 - 2023</b> & <b><a href="https://github.com/BackendExpert" target="_blank" style="color:white;">BackendExpert</a></b> | All Rights Reserved
         </center>
     </div>
 </footer>
