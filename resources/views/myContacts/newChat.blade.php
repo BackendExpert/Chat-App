@@ -18,7 +18,7 @@
                     </div>
                     <div class="col-lg-6" style="text-align: right;">
                         @php
-                            if()
+                            if($$contact->name == )
 
                         @endphp
                         <a href=""><button class="btn btn-success">Add to Contact</button></a>
