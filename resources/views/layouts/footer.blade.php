@@ -7,6 +7,9 @@
     .footer-title{
         padding: 20px 0;
     }
+    .footer-body li{
+        list-style: none;
+    }
 </style>
 
 <footer>
