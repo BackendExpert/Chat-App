@@ -10,7 +10,7 @@ class MyContactController extends Controller
 
     public function view_contact(){
         $contact = Member::all();
-        return view('');
+        return view('myContacts.newChat')->with();
         return view('users.index')->with('members', $members);
     }
 
