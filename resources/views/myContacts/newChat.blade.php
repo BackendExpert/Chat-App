@@ -1,3 +1,5 @@
+@auth
+
 @extends('header')
 
 <style>
@@ -15,3 +17,7 @@
 </div>
 
 @include('layouts.footer')
+
+@else
+
+@endauth
