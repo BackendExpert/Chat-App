@@ -59,8 +59,16 @@
 
         <div class="home-content">
             <div class="container">
+
+                @auth
+                <span class="home-title">Welcome Back </h1></span><br>
+                    <a href="{{ route('login') }}"><button class="btn-login"> <i class="fas fa-user-alt"></i>   Login Here</button></a>
+                @else
                 <span class="home-title">Welcome to Web-Base Chat Application</h1></span><br>
                     <a href="{{ route('login') }}"><button class="btn-login"> <i class="fas fa-user-alt"></i>   Login Here</button></a>
+                @endauth
+
+                
             </div>
         </div>
     </body>
