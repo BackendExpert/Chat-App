@@ -32,7 +32,12 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <p>
-                                
+                            @php
+                                if($contact->role == 1){
+                                    echo "Admin"
+                                }
+                                elseif($contact->role == 2)
+                            @endphp    
                         </p>
                     </div>
                 </div>
