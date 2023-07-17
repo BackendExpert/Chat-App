@@ -13,6 +13,10 @@ class MyContactController extends Controller
         return view('myContacts.newChat')->with('new_contact', $new_contact);
     }
 
+    public function one_contact(){
+        
+    }
+
     public function index()
     {
         //
