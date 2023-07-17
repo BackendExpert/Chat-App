@@ -28,6 +28,7 @@
         .btn-login:hover{
             color: black;
             background: whitesmoke;
+            cursor: pointer;
         }
     </style>
 
