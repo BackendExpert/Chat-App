@@ -12,7 +12,7 @@
         padding: 10px 0;
     }
     .footer-body li a{
-        
+        text-decoration: none;
     }
 </style>
 
