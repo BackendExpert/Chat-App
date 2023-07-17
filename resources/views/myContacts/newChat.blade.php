@@ -17,6 +17,10 @@
                         <h3>{{ $contact->name }}</h3>
                     </div>
                     <div class="col-lg-6" style="text-align: right;">
+                        @php
+                            if()
+
+                        @endphp
                         <a href=""><button class="btn btn-success">Add to Contact</button></a>
                     </div>
                 </div>
