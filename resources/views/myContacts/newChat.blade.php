@@ -3,3 +3,5 @@
 <div class="container">
     sdasd
 </div>
+
+@include('layouts.footer')
