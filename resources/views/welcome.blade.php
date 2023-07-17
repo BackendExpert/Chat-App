@@ -19,6 +19,8 @@
             margin: 30px 0;
             padding: 15px 40px;
             font-size: 21px;
+            background: transparent;
+            border: 1px solid black;
         }
     </style>
 
