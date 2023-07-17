@@ -2,7 +2,11 @@
 
 @extends('header')
 
-    adasdas
+    <div class="one-contact">
+        <div class="container">
+            gggg
+        </div>
+    </div>
 
 @include('layouts.footer')
 
