@@ -8,7 +8,7 @@
 
 <div class="contact-content">
     <div class="container">
-        @foreach ($collection as $item)
+        @foreach ($new_contact as $contact)
             
         @endforeach
     </div>
