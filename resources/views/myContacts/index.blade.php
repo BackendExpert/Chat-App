@@ -6,7 +6,7 @@
             <h3>My Contact</h3>
             <hr>
             <br>
-            @foreach ($collection as $item)
+            @foreach ($myContact as $contact)
                 
             @endforeach
         </div>
