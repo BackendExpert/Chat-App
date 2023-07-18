@@ -22,7 +22,7 @@
                             <h3>{{ $contact->contact_name }}</h3>
                         </div>
                         <div class="col-lg-2">
-                            dsd
+                            <a href=""><button class="btn btn-success" style="width: 100%;"></button></a>
                         </div>
                         <div class="col-lg-2">
                             <form method="POST" action="{{ url('/myContacts' . '/' . $contact->id) }}" accept-charset="UTF-8" style="display:inline">
