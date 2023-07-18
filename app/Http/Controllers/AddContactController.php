@@ -29,7 +29,7 @@ class AddContactController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        
     }
 
     /**
