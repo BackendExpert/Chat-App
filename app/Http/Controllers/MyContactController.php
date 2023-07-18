@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 use App\Models\Member;
-
+use App\Models\MyContactM;
 use Illuminate\Http\Request;
 
 class MyContactController extends Controller
@@ -20,7 +20,7 @@ class MyContactController extends Controller
 
     public function index()
     {
-        //
+        
     }
 
     /**
