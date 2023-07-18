@@ -47,3 +47,5 @@ Route::resource("/users", UserController::class);
 // Route::get('/newChat.oneContact', [MyContactController::class, 'one_contact']);
 
 Route::resource('/newChat', AddContactController::class);
+
+Route::resource('/myContacts')
