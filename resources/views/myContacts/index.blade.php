@@ -5,6 +5,7 @@
         padding: 20px 30px;
         background: rgb(241, 241, 241);
         border: 1px solid rgb(214, 214, 214);
+        border-radius: 5px;
     }
 </style>
 
