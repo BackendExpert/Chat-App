@@ -32,7 +32,7 @@ class AddContactController extends Controller
         $this->validate($request, [
             'owner' => 'required',
             'contact_name' => 'required',
-            'video_title' => 'required|string|max:255',
+            'short_note' => 'required|string|max:50',
         ]);
     }
 
