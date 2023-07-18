@@ -41,6 +41,8 @@ class AddContactController extends Controller
         $new_contact->contact_name = $request->contact_name;
         $new_contact->short_note = $request->short_note;
 
+        $new_contact->save();
+
     }
 
     /**
