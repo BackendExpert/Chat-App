@@ -16,7 +16,9 @@
             <br><br>
 
             @if (Auth::user()->name == $one_contact->name)
-                
+                @php
+                    header("location:newChat");
+                @endphp
             @else
                 
             @endif
