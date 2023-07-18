@@ -20,6 +20,12 @@
                     <div class="col-lg-8">
                         <h3>{{ $contact->contact_name }}</h3>
                     </div>
+                    <div class="col-lg-2">
+
+                    </div>
+                    <div class="col-lg-2">
+                        
+                    </div>
                 </div>
                 <br>
             @endforeach
