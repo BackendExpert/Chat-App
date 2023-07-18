@@ -19,6 +19,9 @@
                 <label for="contacter">Contact Name : </label>
                 <input type="text" name="contact_name" id="" class="form-control" value="{{ $one_contact->name }}" disabled>
 
+                <label for="note">Note :</label>
+                
+
                 <input type="submit" value="ssssssss">
             </form>
         </div>
