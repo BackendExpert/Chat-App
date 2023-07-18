@@ -21,7 +21,7 @@ class MyContactController extends Controller
     public function index()
     {
         $myContact = MyContactM::all();
-        return view('myContacts.index')
+        return view('myContacts.index')->with('myContact', $myContact);
     }   
 
     /**
