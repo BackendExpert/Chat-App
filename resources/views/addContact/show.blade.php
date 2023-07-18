@@ -22,7 +22,7 @@
                 <label for="note">Note :</label>
                 <input type="text" name="short_note" id="" class="form-control">
                 <br>
-                <input type="submit" value="Add To Contact">
+                <input type="submit" value="Add To Contact" class="btn btn-success">
             </form>
         </div>
     </div>
