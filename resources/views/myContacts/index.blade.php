@@ -4,7 +4,7 @@
     .one-contact{
         padding: 20px 30px;
         background: rgb(241, 241, 241);
-        border: 1px solid rgb(226, 226, 226);
+        border: 1px solid rgb(214, 214, 214);
     }
 </style>
 
