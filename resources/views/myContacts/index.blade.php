@@ -34,7 +34,19 @@
                     </div>
                     <div class="row">
                         <div class="col-lg-12">
-                            
+                            <p>
+                                @php
+                                    if($contact->role == 1){
+                                        echo "<span class='badge bg-danger'>Admin</span>";
+                                    }
+                                    elseif($contact->role == 2){
+                                        echo "<span class='badge bg-warning'>Staff Member</span>";
+                                    }
+                                    elseif($contact->role == 3){
+                                        echo "<span class='badge bg-success'>Client</span>";
+                                    }
+                                @endphp    
+                            </p>
                         </div>
                     </div>
                 </div>
