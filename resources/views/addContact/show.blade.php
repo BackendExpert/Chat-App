@@ -15,6 +15,13 @@
             <a href="{{ url('newChat') }}"><button class="btn btn-primary">Back</button></a>
             <br><br>
 
+            @if ()
+                
+            @else
+                
+            @endif
+
+
             <form action="{{ url('newChat') }}" method="post">
                 @csrf
 
