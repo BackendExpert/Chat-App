@@ -25,9 +25,8 @@
                     {{-- <p>{{ $one_contact->name }}</p> --}}
 
                     <label for="contacter">Contact Name : </label>
-                    <input type="hidden" name="owner" value="">
-                    <p>{{ Auth::user()->name }}</p>
-                    <input type="text" name="contact_name" id="" class="form-control" value="{{ $one_contact->name }}" disabled>
+                    <input type="hidden" name="owner" value="{{ Auth::user()->name }}">
+                      <input type="text" name="contact_name" id="" class="form-control" value="{{ $one_contact->name }}" disabled>
                     <br>
                     <label for="note">Note :</label>
                     <input type="text" name="short_note" id="" class="form-control">
