@@ -16,6 +16,7 @@
 
                 {{-- <p>{{ $one_contact->name }}</p> --}}
 
+                <label for="contacter">Contact Name : </label>
 
                 <input type="submit" value="ssssssss">
             </form>
