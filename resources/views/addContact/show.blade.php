@@ -15,7 +15,7 @@
             <a href="{{ url('newChat') }}"><button class="btn btn-primary">Back</button></a>
             <br><br>
 
-            @if ()
+            @if (Auth::user()->name == $one_contact->name)
                 
             @else
                 
