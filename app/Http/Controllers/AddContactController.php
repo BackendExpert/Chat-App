@@ -29,7 +29,10 @@ class AddContactController extends Controller
      */
     public function store(Request $request)
     {
-        
+        $this->validate($request, [
+            'uploader' => 'required',
+            'video_title' => 'required|string|max:255',
+        ]);
     }
 
     /**
