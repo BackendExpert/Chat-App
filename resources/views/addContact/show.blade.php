@@ -19,7 +19,7 @@
             <script>window.location = "/newChat";</script>
             @else
             
-                <form action="{{ url('newChat/'.$one_contact->id) }}" method="post">
+                <form action="{{ url('newChat') }}" method="post">
                     @csrf
 
                     @method('PATCH')
