@@ -16,7 +16,7 @@
             <br><br>
 
             @if (Auth::user()->name == $one_contact->name)
-                
+            <script>window.location = "/";</script>
             @else
             
                 <form action="{{ url('newChat') }}" method="post">
