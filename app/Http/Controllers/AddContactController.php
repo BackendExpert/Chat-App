@@ -43,6 +43,7 @@ class AddContactController extends Controller
 
         $new_contact->save();
 
+        return redirect()->back();
     }
 
     /**
