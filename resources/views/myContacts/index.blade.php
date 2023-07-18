@@ -3,7 +3,7 @@
 @section('content')
     <div class="admin-card">
         <div class="container">
-            My Contact
+            <h3>My Contact</h3>
         </div>
     </div>
 
