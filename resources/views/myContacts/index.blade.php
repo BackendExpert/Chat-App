@@ -17,18 +17,20 @@
             <br>
             @foreach ($myContact as $contact)
                 <div class="one-contact">
-                    <div class="col-lg-8">
-                        <h3>{{ $contact->contact_name }}</h3>
-                    </div>
-                    <div class="col-lg-2">
-                        
-                    </div>
-                    <div class="col-lg-2">
-                        <form method="POST" action="{{ url('/myContacts' . '/' . $contact->id) }}" accept-charset="UTF-8" style="display:inline">
-                            {{ method_field('DELETE') }}
-                            {{ csrf_field() }}
-                            <button type="submit" class="btn btn-danger btn-sm" title="Delete video" onclick="return confirm(&quot;Confirm delete?&quot;)"><i class="fas fa-calendar-times" aria-hidden="true"></i> Delete</button>
-                        </form>  
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <h3>{{ $contact->contact_name }}</h3>
+                        </div>
+                        <div class="col-lg-2">
+                            dsd
+                        </div>
+                        <div class="col-lg-2">
+                            <form method="POST" action="{{ url('/myContacts' . '/' . $contact->id) }}" accept-charset="UTF-8" style="display:inline">
+                                {{ method_field('DELETE') }}
+                                {{ csrf_field() }}
+                                <button type="submit" class="btn btn-danger btn-sm" title="Delete video" onclick="return confirm(&quot;Confirm delete?&quot;)"><i class="fas fa-calendar-times" aria-hidden="true"></i> Delete</button>
+                            </form>  
+                        </div>
                     </div>
                 </div>
                 <br>
