@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Member;
+use App\Models\MyContactM;
 use Illuminate\Http\Request;
 
 class AddContactController extends Controller
@@ -35,7 +36,9 @@ class AddContactController extends Controller
             'short_note' => 'required|string|max:50',
         ]);
 
-        
+        $video = new MyContactM;
+        $video->uploader = $request->uploader;
+
     }
 
     /**
