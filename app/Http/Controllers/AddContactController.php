@@ -34,6 +34,8 @@ class AddContactController extends Controller
             'contact_name' => 'required',
             'short_note' => 'required|string|max:50',
         ]);
+
+        
     }
 
     /**
