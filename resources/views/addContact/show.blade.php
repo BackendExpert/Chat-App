@@ -14,7 +14,7 @@
             <form action="{{ url('newChat') }}" method="post">
                 @csrf
 
-                <p>{{ $one_contact->name }}</p>
+                {{-- <p>{{ $one_contact->name }}</p> --}}
 
 
                 <input type="submit" value="ssssssss">
