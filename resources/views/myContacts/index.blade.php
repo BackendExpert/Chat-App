@@ -17,7 +17,9 @@
             <br>
             @foreach ($myContact as $contact)
                 <div class="one-contact">
-                    <h3>{{ $contact->contact_name }}</h3>
+                    <div class="col-lg-8">
+                        <h3>{{ $contact->contact_name }}</h3>
+                    </div>
                 </div>
                 <br>
             @endforeach
