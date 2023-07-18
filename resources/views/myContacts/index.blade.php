@@ -14,7 +14,7 @@
             <br>
             @foreach ($myContact as $contact)
                 <div class="one-contact">
-                    <img src="" alt="User Contact">
+
                 </div>
             @endforeach
         </div>
