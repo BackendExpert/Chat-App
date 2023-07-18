@@ -22,6 +22,8 @@
                 <form action="{{ url('newChat/'.$one_contact->id) }}" method="post">
                     @csrf
 
+                    @method('PATCH')
+
                     {{-- <p>{{ $one_contact->name }}</p> --}}
 
                     <label for="contacter">Contact Name : </label>
