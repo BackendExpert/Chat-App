@@ -21,7 +21,7 @@
                 <br>
                 <label for="note">Note :</label>
                 <input type="text" name="short_note" id="" class="form-control">
-
+                <br>
                 <input type="submit" value="ssssssss">
             </form>
         </div>
