@@ -12,7 +12,8 @@
     <div class="one-contact">
         <div class="container">
 
-            <a href="{{ url('newChat') }}">back</a>
+            <a href="{{ url('newChat') }}"><button class="btn btn-primary">Back</button></a>
+            <br>
 
             <form action="{{ url('newChat') }}" method="post">
                 @csrf
