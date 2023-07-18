@@ -39,6 +39,7 @@ class AddContactController extends Controller
         $new_contact = new MyContactM;
         $new_contact->owner = $request->owner;
         $new_contact->contact_name = $request->contact_name;
+        $new_contact->short_note = $request->short_note;
 
     }
 
