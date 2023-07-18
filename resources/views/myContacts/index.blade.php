@@ -1,5 +1,11 @@
 @extends('layouts.dash')
 
+<style>
+    .one-contact{
+        padding: 20px 30px;
+    }
+</style>
+
 @section('content')
     <div class="admin-card">
         <div class="container">
@@ -7,7 +13,9 @@
             <hr>
             <br>
             @foreach ($myContact as $contact)
-                
+                <div class="one-contact">
+
+                </div>
             @endforeach
         </div>
     </div>
