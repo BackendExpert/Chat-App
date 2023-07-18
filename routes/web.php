@@ -48,4 +48,4 @@ Route::resource("/users", UserController::class);
 
 Route::resource('/newChat', AddContactController::class);
 
-Route::resource('/myContacts')
+Route::resource('/myContacts', MyContactController::class);
