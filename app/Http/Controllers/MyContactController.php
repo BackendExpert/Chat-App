@@ -20,8 +20,9 @@ class MyContactController extends Controller
 
     public function index()
     {
-        
-    }
+        $myContact = MyContactM::all();
+        return view()
+    }   
 
     /**
      * Show the form for creating a new resource.
