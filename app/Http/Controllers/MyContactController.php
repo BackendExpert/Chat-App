@@ -69,8 +69,8 @@ class MyContactController extends Controller
      */
     public function destroy(string $id)
     {
-        $video = VideoM::find($id);
-        $video->delete();
+        $contact = MyContactM::find($id);
+        $contact->delete();
         return back();
     }
 }
