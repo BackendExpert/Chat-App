@@ -36,8 +36,8 @@ class AddContactController extends Controller
             'short_note' => 'required|string|max:50',
         ]);
 
-        $video = new MyContactM;
-        $video->uploader = $request->uploader;
+        $new_contact = new MyContactM;
+        $new_contact->owner = $request->owner;
 
     }
 
