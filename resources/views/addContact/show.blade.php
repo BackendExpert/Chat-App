@@ -39,7 +39,7 @@
                     <label for="contacter">Contact Name : </label>
                     <input type="hidden" name="owner" value="{{ Auth::user()->name }}">
                       <input type="text" class="form-control" value="{{ $one_contact->name }}" disabled>
-                      <input type="hidden" name="contact_name">
+                      <input type="hidden" name="contact_name" value="{{ $one_contact->name }}">
                     <br>
                     <label for="note">Note :</label>
                     <input type="text" name="short_note" id="" class="form-control">
