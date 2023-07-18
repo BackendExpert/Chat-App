@@ -3,7 +3,7 @@
 <style>
     .one-contact{
         padding: 20px 30px;
-        background: rgb(221, 221, 221);
+        background: rgb(241, 241, 241);
     }
 </style>
 
